@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Payment</title>
+	<link rel="stylesheet" href="C:\Users\j\Desktop\leaf now\checkout.css">
+	
+</head>
+<body>
+	
+<div class="wrapper">
+  <div class="payment">
+        <h2>Payment</h2>
+    <div class="form">
+      <div class="card space icon-relative">
+        <label class="label">Card holder:</label>
+        <input type="text" class="input" placeholder="eg: JUNAID PASHA">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="card space icon-relative">
+        <label class="label">Card number:</label>
+        <input type="text" class="input" data-mask="0000 0000 0000 0000" placeholder="eg:1233 7632 4444 8383">
+        <i class="far fa-credit-card"></i>
+      </div>
+      <div class="card-grp space">
+        <div class="card-item icon-relative">
+          <label class="label">Expiry date:</label>
+          <input type="text" name="expiry-data" class="input" data-mask="00 / 00"  placeholder="00 / 00">
+          <i class="far fa-calendar-alt"></i>
+        </div>
+        <div class="card-item icon-relative">
+          <label class="label">CVC:</label>
+          <input type="text" class="input" data-mask="000" placeholder="000">
+          <i class="fas fa-lock"></i>
+        </div>
+      </div>
+        
+      <button onclick="myFunction()">SUBMIT</button>
+         </div>
+  </div>
+</div>
+<script src="C:\Users\j\Desktop\leaf now\checkout.js">
+</script>
+</body>
+</html>

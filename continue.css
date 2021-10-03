@@ -1,0 +1,59 @@
+body{
+    background-image: url(l8.jpeg) ;
+    background-size: cover;
+}
+
+.content{
+   width: 100%;
+    position: absolute;
+    top:60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white; 
+    }
+
+
+    button{
+        width: 150px;
+        height: 90px;
+        padding: 30px;
+        text-align: center;
+        margin:30px 10px;
+        border-radius:70px;
+        font-weight: bold;
+        border: 2px solid black;
+        background: transparent;
+        color: black;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: orange;
+    }
+
+
+    .navbar{
+        width:85%;
+        margin: auto;
+        padding: 35px ;
+        display: flex;
+        align-items: right;
+        justify-content: space-between;
+        
+    }
+    
+    .navbar ul li{
+        display: inline-block;
+        margin: 20px;
+        transform: translateX(1000px);
+    }
+    
+    .navbar ul li a {
+        color: yellow;
+        text-transform: uppercase;
+    }
+    
+    .navbar ul li:hover{
+        background-color: pink;
+    }
+      
